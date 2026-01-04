@@ -1,0 +1,9 @@
+touchscreen:
+  platform: cst816
+  id: my_touchscreen
+  interrupt_pin: 11
+  # on_touch:
+  #     then:
+  #       - logger.log:
+  #           format: "Touch at (%d, %d)"
+  #           args: [touch.x, touch.y]
